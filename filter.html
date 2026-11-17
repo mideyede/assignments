@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word Filter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <span class="logo">WF</span>
+            <span class="brand">WordFilter</span>
+        </div>
+
+        <div class="heading">
+            <h1>Keep it clean.</h1>
+        </div>
+        <div class="input-section">
+            <label>YOUR TEXT</label>
+            <textarea name="" id="userText" placeholder="Type"></textarea>
+            <div class="buttons">
+                <button id="filterBtn">Filter text</button>
+                <button id="clearBtn">Clear</button>
+            </div>
+        </div>
+
+        <div class="result">
+            <div class="result-header">
+                <h3>Filtered Result</h3>
+                <span class="status">PROCESSED</span>
+            </div>
+
+            <p id="output">Filtered text</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
